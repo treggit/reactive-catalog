@@ -1,3 +1,3 @@
 # reactive-catalog
 
-Reactive WebFlux backend + SSE experiments
+Reactive WebFlux backend + SSE experiments.
