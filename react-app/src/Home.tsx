@@ -1,7 +1,6 @@
 import React, {FunctionComponent, useCallback, useContext, useState} from 'react';
 
 import './App.css';
-import logo from './logo.svg';
 import rocket from './rocket.png';
 import ProductsList from "./ProductsList";
 import AuthContext from "./AuthContext";
