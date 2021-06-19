@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: docker.pkg.github.com
   IMAGE_NAME: ${{ github.repository }}
 
 
