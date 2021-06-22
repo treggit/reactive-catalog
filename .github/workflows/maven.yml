@@ -13,6 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      test: test
 
     steps:
     - uses: actions/checkout@v2
@@ -21,6 +23,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        some-param: ${{ steps.*.outputs }}
+        some-param: ${{ env.test }}
     - name: Build with Maven
       run: mvn -B package --file pom.xml
